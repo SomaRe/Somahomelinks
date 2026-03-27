@@ -5,7 +5,7 @@ let navApps = document.getElementById('nav-apps-container');
 card_data_objects = [
     {
         'card-category': 'Apps',
-        'card_image': 'assets/images/logo-favicon.png',
+        'card_image': 'assets/images/claude-ai-icon.png',
         'card_name': 'Claude UI',
         'card_description': 'Web and mobile interface for Claude Code — manage AI agent sessions and projects.',
         'card_link': 'https://claudeui.somahomelabs.com/'
