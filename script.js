@@ -12,6 +12,13 @@ card_data_objects = [
     },
     {
         'card-category': 'Apps',
+        'card_image': 'assets/images/filebrowser-logo.png',
+        'card_name': 'File Browser',
+        'card_description': 'Browse, view and edit files on the server — user-files, memory, scripts and more.',
+        'card_link': 'https://files.somahomelabs.com/'
+    },
+    {
+        'card-category': 'Apps',
         'card_image': 'assets/images/claude-ai-icon.png',
         'card_name': 'Claude UI',
         'card_description': 'Web and mobile interface for Claude Code — manage AI agent sessions and projects.',
