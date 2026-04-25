@@ -25,6 +25,13 @@ card_data_objects = [
         'card_link': 'https://claudeui.somahomelabs.com/'
     },
     {
+        'card-category': 'Apps',
+        'card_image': 'assets/images/room-planner-logo.png',
+        'card_name': 'Room Planner',
+        'card_description': '3D room layout planner — drag furniture, rotate, plan placement before moving real things.',
+        'card_link': 'https://room.somahomelabs.com/'
+    },
+    {
         'card-category': 'Media Server',
         'card_image': 'assets/images/overseerr-logo.png',
         'card_name': 'Jellyseerr',
