@@ -28,6 +28,18 @@
     width: 100%;
 }
 
+.avatar-fallback{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    border-radius: 8px;
+    user-select: none;
+}
+
 .card-body{
     padding: 0 10px;
 }

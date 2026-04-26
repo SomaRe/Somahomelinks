@@ -62,10 +62,25 @@ card_data_objects = [
 ];
 
 
+function getInitials(name) {
+    const words = name.trim().split(/\s+/);
+    if (words.length === 1) return (words[0][0] || '?').toUpperCase();
+    return (words[0][0] + words[1][0]).toUpperCase();
+}
+
+function nameToHue(name) {
+    let h = 0;
+    for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) | 0;
+    return ((h % 360) + 360) % 360;
+}
+
 function createCard(title, imagePath, description, card_link) {
+    const initials = getInitials(title);
+    const hue = nameToHue(title);
     return `<div class="col-12 col-sm-6 col-md-3 col-lg-3 card" onclick="window.open('${card_link}', '_blank')">
                 <div class="card-img col-4">
-                    <img src="${imagePath}" class="" alt="Logo">
+                    <img src="${imagePath}" class="" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                    <div class="avatar-fallback" style="display:none;background:hsl(${hue} 55% 38%);">${initials}</div>
                 </div>
                 <div class="card-body col-8">
                     <p class="card-title">${title}</p>
