@@ -26,6 +26,13 @@ card_data_objects = [
     },
     {
         'card-category': 'Apps',
+        'card_image': 'assets/images/karya-logo.png',
+        'card_name': 'Karya',
+        'card_description': 'Filesystem-native project tracker — manage tasks and epics across projects.',
+        'card_link': 'https://karya.somahomelabs.com/'
+    },
+    {
+        'card-category': 'Apps',
         'card_image': 'assets/images/room-planner-logo.png',
         'card_name': 'Room Planner',
         'card_description': '3D room layout planner — drag furniture, rotate, plan placement before moving real things.',
