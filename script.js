@@ -39,6 +39,12 @@ card_data_objects = [
         'card_link': 'https://room.somahomelabs.com/'
     },
     {
+        'card-category': 'Apps',
+        'card_name': 'Opencode',
+        'card_description': 'AI-powered coding agent with web interface — write, edit, and run code from any device.',
+        'card_link': 'https://opencode.somahomelabs.com/'
+    },
+    {
         'card-category': 'Media Server',
         'card_image': 'assets/images/overseerr-logo.png',
         'card_name': 'Jellyseerr',
